@@ -1,0 +1,16 @@
+.note {
+  text-align: left;
+  background-color: rgb(255, 209, 240);
+  padding: 0.5rem 0.5rem 1rem 1rem;
+  border-radius: 1rem;
+  border: 0.2rem solid rgb(233, 93, 117);
+  margin: 2rem 4.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.submit-btn {
+  display: inline-block;
+}
+
