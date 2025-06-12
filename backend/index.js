@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const port = 5000;
-const mongoURL = "mongodb://127.0.0.1:27017/anandnotes";
+const mongoURL = "mongodb+srv://biswalomsaispandan:AnandaNotes%23108@cluster0.jdd4gmo.mongodb.net/anandaNotesDB?retryWrites=true&w=majority&appName=Cluster0";
 const cors = require("cors");
 const User = require("./models/user");
 const Note = require("./models/note");
